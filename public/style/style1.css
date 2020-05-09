@@ -1,0 +1,16 @@
+body{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    min-height: 48vw;
+}
+.main_container{
+    flex-grow: 1;
+}
+input{
+    padding: 8px;
+}
+button{
+    padding: 8px;
+    background-color: #888888;
+}
