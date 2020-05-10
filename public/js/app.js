@@ -15,7 +15,7 @@ weatherform.addEventListener('submit', (e) => {
             if(data.error){
                 document.getElementById('p1').innerHTML = data.error
             }else{
-                document.getElementById('p1').innerHTML = 'Temperature = ' + data.temperature + '<br>' + 'Feels Like = ' + data.feelslike + '<br>' + 'Weather Descriptions = ' + data.weather_descriptions + '<br>' + 'Location = ' + data.location + '<br>'  + 'Humidity = ' + body.humidity
+                document.getElementById('p1').innerHTML = 'Temperature = ' + data.temperature + '<br>' + 'Feels Like = ' + data.feelslike + '<br>' + 'Weather Descriptions = ' + data.weather_descriptions + '<br>' + 'Location = ' + data.location + '<br>'  + 'Humidity = ' + data.humidity
             }
         })
     })
