@@ -78,8 +78,8 @@ app.get('/weather', (req, res) => {
                 weather_descriptions: forecastdata.weather_descriptions,
                 temperature: forecastdata.temperature,
                 feelslike: forecastdata.feelslike,
-                location: location
-                // humidity: forecastdata.humidity
+                location: location,
+                humidity: forecastdata.humidity
             })
         })
     })
