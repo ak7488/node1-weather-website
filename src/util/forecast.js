@@ -11,9 +11,33 @@ const forecast = (lon,lat,callback) => {
                 weather_descriptions: body.current.weather_descriptions,
                 temperature: body.current.temperature,
                 feelslike: body.current.feelslike
+                // humidity: body.current.humidity
             })
         }
     })
 }
 module.exports = forecast
-//body.current.weather_descriptions[0] + '. it is currently ' + body.current.temperature+' degrees c out. It feel likes ' + body.current.feelslike + ' degrees c'
+
+
+// "current": {
+//     "observation_time": "07:53 AM",
+//     "temperature": 41,
+//     "weather_code": 116,
+//     "weather_icons": [
+//     "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+//     ],
+//     "weather_descriptions": [
+//     "Partly cloudy"
+//     ],
+//     "wind_speed": 9,
+//     "wind_degree": 199,
+//     "wind_dir": "SSW",
+//     "pressure": 1006,
+//     "precip": 0,
+//     "humidity": 13,
+//     "cloudcover": 2,
+//     "feelslike": 41,
+//     "uv_index": 10,
+//     "visibility": 10,
+//     "is_day": "yes"
+//     }
